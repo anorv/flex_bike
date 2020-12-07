@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box;
+/* outline: 1px red solid; */
+
+}
+
+
+header {
+  min-height: 100vh;
+  background-image: url(Image/headerBackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+.logo {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+  align-items: center;
+}
+
+table {
+  width: 50%;
+  padding-top: 0%;
+}
+
+.icon {
+  padding-top: 5%;
+  padding-bottom: 2.5%;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: medium;
+  display: block;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 10px;
+}
+
+.po {
+  font-size: 15px;
+  line-height: 2;
+  display: flex;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 10%;
+}
+/* konteineriu aprasytu vietu stilizacija */
+.text1 {
+  font-size: small;
+}
+
+.text2 {
+  color: #A0A0A0;
+  font-size: small;
+  line-height: 2;
+  margin: auto;
+  word-break: break-all;
+}
+/* pirmas konteineris */
+
+#oliva {
+display: flex;
+}
+
+.oliva_left {
+  width: 66.66%;
+  background-image: url('Image/olivaLeft.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+} 
+
+.oliva_right {
+  width: 33.33%;
+}
+
+.oliva_right_img {
+  width: 100%;
+  display: block;
+}
+
+.oliva_logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+/* prasideda antras konteineris */
+#boriosa {
+  display: flex;
+}
+
+.boriosa_left {
+  width: 33.33%;
+}
+
+.boriosa_left_img{
+  width: 100%;
+  display: block;
+}
+
+.oliva_content{
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.boriosa_right {
+  width: 66.66%;
+  background-image: url('Image/boriosaRight.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.boriosa_content {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.borioso_logo {
+width: 140px;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+}
+
+/* prasideda trecias konteineris */
+
+#hulot {
+  display: flex;
+  width: 100%;
+  /* height: 85vh; */
+
+}
+
+.hulot_left {
+  width: 33.33%;
+  background-image: url('Image/hulotLeft.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hulot_logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.hulot_middle {
+  width: 33.33%
+}
+
+.hulot_right {
+  width: 33.33%;
+  background-image: url('Image/hulotRight.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+
+.hulot_middle_img {
+  width: 100%;
+  display: block;
+}
+
+.hulot_content {
+  text-align: center;
+  padding: 60px 40px;
+}
+/* baigiasi trecias konteineris */
+
+.line {
+  height: 2px;
+  background-color:  #A0A0A0;
+  width: 60px;
+  margin: auto;
+}
+/* prasideda twitter sekcija */
+.twitter_text {
+  text-align: center;
+  font-size: medium;
+  line-height: 2;
+  font-weight: bolder;
+}
+
+.pa {
+  text-align: center;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10%;
+}
+
+/* prasideda ketvirtas blokas */
+#gallery > div {
+  width: calc(100% / 3);
+}
+.gallery_first, .gallery_third {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery_first img, .gallery_third img {
+  display: block;
+  width: 50%;
+}
+.full_image {
+  width: 100% !important;
+}
+#gallery {
+  display: flex;
+}
+
+.gallery_second {
+  display: flex;
+}
+.gallery_second img {
+  display: block;
+  width: 50%;
+}
+.gallery_second_left, .gallery_second_right {
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery_second_left {
+  background: url('Image/2ndLeft.png');
+}
+.gallery_second_right {
+  background: url('Image/2ndRight.png');
+}
+
+
+   /* PRASIDEDA DISCOVER BLOKAS */
+   .discover {
+     background-color: black;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding: 50px 60px;
+   }
+
+  .discover_button {
+    background-color: black;
+    color: white;
+    border: white 1px solid;
+    text-align: center;
+    padding: 20px 55px;
+   
+  }
+
+
+  /* prasideda email sekcija */
+
+.email {
+margin: 0;
+text-align: center;
+
+}
+
+.email_logo {
+  padding-top: 60px;
+  padding-bottom: 20px;
+
+}
+
+.email_text {
+  font-style: oblique;
+  font-size: larger;
+  font-weight: bolder;
+  color: #A0A0A0;
+}
+
+.email_input {
+  padding: 15px;
+  border: 3px solid #A0A0A0;
+  margin-bottom: 12%;
+}
+
+.email_botton {
+  background-color: rgb(71, 180, 180);
+  color: white;
+  border: none;
+  padding: 0px 10px;
+  padding: 17px 26px;
+}
+
+/* prasideda footeris */
+
+
+.footer {
+  display: flex;
+  width: 100%;
+}
+
+.addresas, .nuorodos, .by{
+  width: 33.33%;
+}
+
+address {
+  color: #A0A0A0;
+  font-size: smaller;
+  padding-top: 35%;
+  padding-bottom: 30%;
+  margin-left: 30px;
+}
+
+.adress_email {
+  color: #A0A0A0;
+  text-decoration: none;
+
+}
+
+.nuorodos {
+  text-align: right;
+  padding-top: 70px;
+}
+
+.image_button {
+  padding: 10px ;
+} 
+
+.by {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+ 
+}
+
+
+.by_text {
+  
+  padding-left: 228px;
+  text-align: center;
+  font-size: smaller;
+  color: #A0A0A0;
+  
+}
+
+
+
